@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <title>Andre's Homepage</title>
+        <script>
+          window.addEventListener('DOMContentLoaded', (event) => {
+          fetch('header.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+          fetch('footer.html')
+            .then(res => res.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+          });
+        </script>
+    </head>
+    <body class="body">
+      <header id="header"></header>
+      <main>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <div class="container text-center mt-4">
+          <div class="row justify-content-center">
+            <div class="col-6 col-md-6 mb-4">
+              <img src="https://cdna.artstation.com/p/assets/images/images/063/375/728/large/andre-m-ho-composited-resized.jpg?1685393589" class="img-fluid" alt="Exhibit A">
+            </div>
+            <div class="col-6 col-md-6 mb-4">
+              <img src="https://cdnb.artstation.com/p/assets/images/images/065/744/385/large/andre-m-ho-sentry1.jpg?1691099073" class="img-fluid" alt="Exhibit B">
+            </div>
+            <div class="col-6 col-md-6 mb-4">
+              <img src="https://cdnb.artstation.com/p/assets/images/images/071/363/433/large/andre-m-ho-ancient-door-composited-1-1-1.jpg?1705008078" class="img-fluid" alt="Exhibit C">
+            </div>
+            <div class="col-6 col-md-6 mb-4">
+              <img src="https://cdnb.artstation.com/p/assets/images/images/060/251/421/large/andre-m-ho-comp2-1-1-1-1-1-2.jpg?1678152289" class="img-fluid" alt="Exhibit D">
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="footer"></footer>
+    </body>
+</html>

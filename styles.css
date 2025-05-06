@@ -1,0 +1,34 @@
+#pageTitle {
+    color: black;
+    text-align: center;
+
+}
+
+.body {
+    background-color: #a6c5f5;
+}
+
+.sectionCard {
+    background-color: #fffff2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+
+.bodyCard {
+    background-color: #fffff2;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+.customNavBar {
+    background-color: #fffff2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.customNavLink {
+    font-size: 2rem;
+
+}
