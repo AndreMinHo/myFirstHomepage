@@ -9,15 +9,15 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #a6c5f5;
+    margin: 0;
+    padding-bottom: 120px;
 }
 
 .main {
-    flex: 1;
+    flex-grow: 1;
+    padding-bottom: 120px;
 }
 
-.art {
-    margin-bottom: 100px;
-}
 
 .sectionCard {
     background-color: #fffff2;
