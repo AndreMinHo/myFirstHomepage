@@ -10,7 +10,7 @@
 
         <title>Andre's Homepage</title>
         <script>
-          window.addEventListener('DOMContentLoaded', (event) => {
+          window.addEventListener('DOMContentLoaded', () => {
           fetch('header.html')
             .then(res => res.text())
             .then(data => document.getElementById('header').innerHTML = data);
