@@ -4,8 +4,19 @@
 
 }
 
-.body {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #a6c5f5;
+}
+
+.main {
+    flex: 1;
+}
+
+.art {
+    margin-bottom: 100px;
 }
 
 .sectionCard {
@@ -26,7 +37,14 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-
+.customFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: center;
+}
 
 .customNavLink {
     font-size: 2rem;
